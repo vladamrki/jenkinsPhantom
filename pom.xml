@@ -108,12 +108,12 @@
 						<version>2.19.1</version>
 						<configuration>
 							<redirectTestOutputToFile>true</redirectTestOutputToFile>
-							<includes>
+							<!--<includes>-->
 								<suiteXmlFiles>
 									<suiteXmlFile>**/BankingTP.xml</suiteXmlFile>
 								</suiteXmlFiles>
 								<!-- <include>**/AppTest2.java</include> <include>**/AppTest.java</include> -->
-							</includes>
+							<!--</includes>-->
 						</configuration>
 					</plugin>
 				</plugins>
