@@ -88,6 +88,8 @@
 
 	</dependencies>
 
+
+
 	<build>
 		<plugins>
 			<plugin>
@@ -104,7 +106,9 @@
 				<version>2.19.1</version>
 				<configuration>
 					<redirectTestOutputToFile>true</redirectTestOutputToFile>
-					<include>**/Banking.AppTest2.java</include>
+					<includes>
+						<include>**/AppTest2.java</include>
+					</includes>
 				</configuration>
 			</plugin>
 		</plugins>
