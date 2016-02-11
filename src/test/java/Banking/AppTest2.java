@@ -14,7 +14,7 @@ import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
  
-public class test2 {
+public class AppTest2 {
   private RemoteWebDriver driver;
 
 @Test
