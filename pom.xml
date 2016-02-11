@@ -107,7 +107,7 @@
 				<configuration>
 					<redirectTestOutputToFile>true</redirectTestOutputToFile>
 					<suiteXmlFiles>
-						<suiteXmlFile>**/BankingTP.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
