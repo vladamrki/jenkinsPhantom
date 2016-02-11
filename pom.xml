@@ -108,6 +108,7 @@
 					<redirectTestOutputToFile>true</redirectTestOutputToFile>
 					<includes>
 						<include>**/AppTest2.java</include>
+						<include>**/AppTest.java</include>
 					</includes>
 				</configuration>
 			</plugin>
