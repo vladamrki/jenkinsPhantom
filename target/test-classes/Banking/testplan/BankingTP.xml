@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BankingTP" >
+	<test name="JenkinsTest" >
+		<classes>
+ 			<class name="Banking.AppTest" /> 
+			<class name="Banking.AppTest2" /> 
+		</classes>
+	</test>
+</suite>
