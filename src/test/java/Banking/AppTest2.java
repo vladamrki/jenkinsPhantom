@@ -18,7 +18,7 @@ public class AppTest2 {
   private RemoteWebDriver driver;
 
 @Test
-  public void testSearchReturnsResults() throws MalformedURLException {
+  public void testSearchReturnsResults1() throws MalformedURLException {
     //Create instance of PhantomJS driver
 
 	 File phantomjs = Phanbedder.unpack();
