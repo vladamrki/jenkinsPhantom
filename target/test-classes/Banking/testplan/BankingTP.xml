@@ -2,8 +2,8 @@
 <suite name="BankingTP" >
 	<test name="JenkinsTest" >
 		<classes>
- 			<class name="Banking.AppTest" /> 
-			<class name="Banking.AppTest2" /> 
+ 			<class name="**/AppTest" /> 
+			<class name="**/AppTest2" /> 
 		</classes>
 	</test>
 </suite>
