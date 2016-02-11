@@ -79,6 +79,12 @@
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>net.anthavio</groupId>
+			<artifactId>phanbedder-1.9.2</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+
 
 	</dependencies>
 
@@ -97,8 +103,8 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19.1</version>
 				<configuration>
-                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
-                </configuration>
+					<redirectTestOutputToFile>true</redirectTestOutputToFile>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
