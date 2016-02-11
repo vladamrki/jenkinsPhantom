@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="co.ntier.Jenkins.AppTest" duration-ms="3" started-at="2016-02-10T19:20:06Z" finished-at="2016-02-10T19:20:06Z">
+    <groups>
+    </groups>
+    <test name="Command line test 7bcb3194-ae62-4583-ad04-0366707e5745" duration-ms="3" started-at="2016-02-10T19:20:06Z" finished-at="2016-02-10T19:20:06Z">
+    </test> <!-- Command line test 7bcb3194-ae62-4583-ad04-0366707e5745 -->
+  </suite> <!-- co.ntier.Jenkins.AppTest -->
+</testng-results>

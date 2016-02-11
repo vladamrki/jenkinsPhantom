@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="Banking.AppTest"/>
+    </classes>
+  </test> <!-- Default test -->
+<<<<<<< HEAD
+=======
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Banking.AppTest">
+        <methods>
+          <include name="testSearchReturnsResults"/>
+        </methods>
+      </class> <!-- Banking.AppTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+>>>>>>> b7d7c94decd8ffd9a3c5bc49759f45c08d6f7a92
+</suite> <!-- Failed suite [Default suite] -->
