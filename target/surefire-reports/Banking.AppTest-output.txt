@@ -1,0 +1,10 @@
+Feb 11, 2016 10:13:59 AM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: executable: C:\Users\VLADIM~1\AppData\Local\Temp\phantomjs-1.9.2\phantomjs.exe
+Feb 11, 2016 10:13:59 AM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: port: 30170
+Feb 11, 2016 10:13:59 AM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: arguments: [--webdriver=30170, --webdriver-logfile=C:\Users\vladimirm\workspace\vlada-master\phantomjsdriver.log]
+Feb 11, 2016 10:13:59 AM org.openqa.selenium.phantomjs.PhantomJSDriverService <init>
+INFO: environment: {}
+Feb 11, 2016 10:14:19 AM org.openqa.selenium.os.UnixProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "C:\Users\vladimirm\AppData\Local\Temp\phantomjs-1.9.2\phantomjs.exe" (in directory "."): CreateProcess error=1260, This program is blocked by group policy. For more information, contact your system administrator)
