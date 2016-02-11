@@ -1,24 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results skipped="0" failed="0" total="1" passed="1">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Default suite" duration-ms="15326" started-at="2016-02-11T07:51:57Z" finished-at="2016-02-11T07:52:12Z">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="15326" started-at="2016-02-11T07:51:57Z" finished-at="2016-02-11T07:52:12Z">
-      <class name="Banking.AppTest">
-        <test-method status="PASS" signature="testSearchReturnsResults()[pri:0, instance:Banking.AppTest@13afe78]" name="testSearchReturnsResults" duration-ms="15313" started-at="2016-02-11T08:51:57Z" finished-at="2016-02-11T08:52:12Z">
-=======
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="78" started-at="2016-02-10T20:45:08Z" finished-at="2016-02-10T20:45:08Z">
+  <suite name="Default suite" duration-ms="47" started-at="2016-02-11T08:33:36Z" finished-at="2016-02-11T08:33:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="78" started-at="2016-02-10T20:45:08Z" finished-at="2016-02-10T20:45:08Z">
+    <test name="Default test" duration-ms="47" started-at="2016-02-11T08:33:36Z" finished-at="2016-02-11T08:33:36Z">
       <class name="Banking.AppTest">
-        <test-method status="FAIL" signature="testSearchReturnsResults()[pri:0, instance:Banking.AppTest@b684286]" name="testSearchReturnsResults" duration-ms="60" started-at="2016-02-10T21:45:08Z" finished-at="2016-02-10T21:45:08Z">
+        <test-method status="FAIL" signature="testSearchReturnsResults()[pri:0, instance:Banking.AppTest@1684286]" name="testSearchReturnsResults" duration-ms="35" started-at="2016-02-11T09:33:36Z" finished-at="2016-02-11T09:33:36Z">
           <exception class="java.lang.IllegalStateException">
             <message>
               <![CDATA[The path to the driver executable must be set by the phantomjs.binary.path capability/system property/PATH variable; for more information, see https://github.com/ariya/phantomjs/wiki. The latest version can be downloaded from http://phantomjs.org/download.html]]>
@@ -29,7 +18,7 @@
 	at org.openqa.selenium.phantomjs.PhantomJSDriverService.findPhantomJS(PhantomJSDriverService.java:236)
 	at org.openqa.selenium.phantomjs.PhantomJSDriverService.createDefaultService(PhantomJSDriverService.java:181)
 	at org.openqa.selenium.phantomjs.PhantomJSDriver.<init>(PhantomJSDriver.java:104)
-	at Banking.AppTest.testSearchReturnsResults(AppTest.java:14)
+	at Banking.AppTest.testSearchReturnsResults(AppTest.java:15)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,7 +46,6 @@
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.IllegalStateException -->
->>>>>>> b7d7c94decd8ffd9a3c5bc49759f45c08d6f7a92
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchReturnsResults -->
